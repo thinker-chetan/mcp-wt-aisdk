@@ -2,7 +2,7 @@
 
 # Dynamic MCP invocations based on user Auth
 - Spawning MCP Client instances per requests - obviously closing them in the finally block.
-- User Auth (PAT) is passed at MCP client creation only - AI can't access it - No data bleed.
+- User Auth (PAT) is passed at MCP client creation only - AI can't access it.
 
 ### Setup BE only
 - Clone the Repo
